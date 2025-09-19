@@ -4,7 +4,7 @@ A modern, responsive user management application built with React, TypeScript, a
 
 ## 🚀 Live Demo
 
-[View Live Demo](https://react-advanced-assignment.psamd.now.sh/)
+[View Live Demo](https://useer-management-dashboard-react-nx.vercel.app/)
 
 ## ✨ Features
 
@@ -148,78 +148,3 @@ interface User {
 }
 ```
 
-## 🎯 Key Components
-
-### UserCard Component
-- Displays individual user information in a card format
-- Includes avatar with user initials
-- Shows contact information with appropriate icons
-- Provides action buttons for like, edit, and delete
-- Responsive design with hover effects
-
-### EditUserModal Component
-- Modal form for editing user information
-- Form validation with error messages
-- Organized sections for personal and address information
-- Responsive form layout with proper field grouping
-
-### UserList Component
-- Main container component managing user state
-- Implements grid layout with responsive columns
-- Handles user interactions (edit, delete, like)
-- Loading and error state management
-
-### useUsers Hook
-- Custom hook for user data management
-- API integration with error handling
-- State management for CRUD operations
-- Like functionality implementation
-
-## 🚀 Performance Optimizations
-
-- **Component Memoization**: Efficient re-rendering
-- **Lazy Loading**: Code splitting for better performance
-- **Optimized Images**: Proper image handling and sizing
-- **CSS Animations**: Hardware-accelerated transitions
-- **Bundle Optimization**: Tree shaking and minification
-
-## 🧪 Testing Considerations
-
-The application is designed to be testable with:
-- Component isolation for unit testing
-- Custom hooks that can be tested independently
-- Clear separation of concerns
-- Predictable state management
-
-## 🔒 Security Features
-
-- **Input Validation**: Form validation prevents invalid data
-- **XSS Protection**: Proper data sanitization
-- **Type Safety**: TypeScript prevents runtime errors
-- **Error Boundaries**: Graceful error handling
-
-## 🌟 Future Enhancements
-
-- **Search and Filter**: User search functionality
-- **Sorting Options**: Sort users by different criteria
-- **Pagination**: Handle large user datasets
-- **User Creation**: Add new user functionality
-- **Data Persistence**: Local storage or database integration
-- **Unit Tests**: Comprehensive test coverage
-- **Accessibility**: WCAG compliance improvements
-
-## 📄 License
-
-This project is created for educational purposes as part of a React assignment.
-
-## 🤝 Contributing
-
-This is an assignment project, but suggestions and improvements are welcome!
-
-## 📞 Support
-
-For any questions or issues, please refer to the assignment guidelines or contact the instructor.
-
----
-
-**Built with ❤️ using React, TypeScript, and Ant Design**
