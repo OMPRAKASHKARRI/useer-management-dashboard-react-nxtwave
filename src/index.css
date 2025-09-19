@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for the user management app */
+.app {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.user-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+.user-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12) !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .ant-card-body {
+    padding: 16px !important;
+  }
+  
+  .ant-typography h1 {
+    font-size: 1.8rem !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .ant-card-actions li {
+    margin: 4px 0 !important;
+  }
+  
+  .ant-typography h1 {
+    font-size: 1.5rem !important;
+  }
+}
+
+/* Custom animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.ant-card {
+  animation: fadeIn 0.5s ease-out;
+}
+
+/* Loading state improvements */
+.ant-spin-nested-loading > div > .ant-spin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Modal improvements */
+.ant-modal-content {
+  border-radius: 12px !important;
+}
+
+.ant-modal-header {
+  border-radius: 12px 12px 0 0 !important;
+}
+
+/* Form styling */
+.ant-form-item-label > label {
+  font-weight: 500;
+}
+
+.ant-input:focus,
+.ant-input-focused {
+  border-color: #1890ff;
+  box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+}
+
+/* Button hover effects */
+.ant-btn-text:hover {
+  background-color: rgba(24, 144, 255, 0.06) !important;
+}
+
+.ant-btn-dangerous.ant-btn-text:hover {
+  background-color: rgba(255, 77, 79, 0.06) !important;
+}
+
+/* Avatar styling */
+.ant-avatar {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Tag styling */
+.ant-tag {
+  border: none;
+  font-weight: 500;
+}
